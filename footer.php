@@ -22,7 +22,7 @@
 				?>
 			</a>
 			<span class="sep"> | </span>
-			<?php echo 	'the footer'; ?>
+			<?php echo 	'the footer again'; ?>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'hip-creation' ), 'hip-creation', '<a href="http://nessie-tim">Tim and Nessie</a>' );
