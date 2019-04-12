@@ -1,0 +1,35 @@
+.top-banner {
+    background-color: rgb(180, 187, 196);
+}
+
+#primary-menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    >li {
+        width: 50%;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            color: #b4bbc4;
+        }
+        &:first-child {
+            background-color: green;
+        }
+        &:nth-child(2) {
+            background-color: blue;
+        }
+        &:nth-child(3) {
+            background-color: red;
+        }
+        &:nth-child(4) {
+            background-color: yellow;
+        }
+    }
+}
+
+#about-us {
+    background-color: #b4bbc4;
+}

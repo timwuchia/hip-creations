@@ -1,27 +1,11 @@
 {
-    "key": "group_5cac209e8fbfa",
-    "title": "Service",
+    "key": "group_5cafee4637972",
+    "title": "Work",
     "fields": [
         {
-            "key": "field_5cac20a69e4bd",
-            "label": "Service Section",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_5cac20b59e4be",
-            "label": "Service Title",
-            "name": "service_title",
+            "key": "field_5cafee4ff26c6",
+            "label": "Work Page Title",
+            "name": "work_page_title",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -38,10 +22,10 @@
             "maxlength": ""
         },
         {
-            "key": "field_5cac20c39e4bf",
-            "label": "Service Sub Title",
-            "name": "service_sub_title",
-            "type": "text",
+            "key": "field_5caff58152174",
+            "label": "Work Page Subtitle",
+            "name": "work_page_subtitle",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -51,15 +35,15 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
-            "key": "field_5cac20cd9e4c0",
-            "label": "Service Content",
-            "name": "service_content",
+            "key": "field_5cafef91f26c7",
+            "label": "Works",
+            "name": "works",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -76,10 +60,10 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_5cac20f69e4c1",
-                    "label": "Service Description Title",
-                    "name": "service_description_title",
-                    "type": "text",
+                    "key": "field_5cafefa4f26c9",
+                    "label": "Work Image",
+                    "name": "work_image",
+                    "type": "image",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -88,16 +72,21 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
-                    "key": "field_5cac210c9e4c2",
-                    "label": "Service Description Content",
-                    "name": "service_description_content",
+                    "key": "field_5cafefaff26ca",
+                    "label": "Work Content",
+                    "name": "work_content",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
@@ -133,5 +122,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1555034674
+    "modified": 1555035538
 }
