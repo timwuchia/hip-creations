@@ -1,0 +1,136 @@
+$blue_bg: blue;
+$gray_bg: rgb(180, 187, 196);
+$green_bg: green;
+$red_bg: red;
+$yellow_bg: yellow;
+
+.post, .page {
+    margin-bottom: 0;
+}
+
+.top-banner {
+    background-color: rgb(180, 187, 196);
+}
+
+#primary-menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    >li {
+        width: 50%;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            color: #b4bbc4;
+        }
+        &:first-child {
+            background-color: $green_bg;
+        }
+        &:nth-child(2) {
+            background-color: $blue_bg;
+        }
+        &:nth-child(3) {
+            background-color: $red_bg;
+        }
+        &:nth-child(4) {
+            background-color: $yellow_bg;
+        }
+    }
+}
+
+//about section
+.about-us {
+    background-color: $gray_bg;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    color: #fff;
+    .about-logo {
+        width: 60%;
+    }
+    .about-description {
+        background-color: $blue_bg;
+        width: 75%;
+        padding: 30px 0px;
+    }
+}
+
+.about-tim-section {
+    background-color: $blue_bg;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    color: #fff;
+    .about-tim-img {
+        width: 60%;
+    }
+}
+
+.about-nessie-section {
+    background-color: $blue_bg;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    color: #fff;
+    .about-nessie-img {
+        width: 60%;
+    }
+}
+
+.service-section {
+    background-color: $gray_bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    .services-title-section {
+        background-color: $blue_bg;
+        padding: 30px 15px;
+        width: 75%;
+    }
+
+    .service-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .service-description {
+            width: 45%;
+            $border: 2px solid white;
+            padding: 20px;
+            &:first-child {
+                border-bottom: $border;
+                border-right: $border;
+            }
+            &:last-child {
+                border-top: $border;
+                border-left: $border;
+                padding-left: 20px
+            }
+        }
+    }
+}
+
+.work-section {
+    text-align: center;
+    background-color: $gray_bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .work-titles {
+        background-color: $blue_bg;
+        width: 75%;
+        padding: 30px 15px;
+
+    }
+
+}
