@@ -1,8 +1,8 @@
-$blue_bg: blue;
-$gray_bg: rgb(180, 187, 196);
-$green_bg: green;
-$red_bg: red;
-$yellow_bg: yellow;
+$blue_bg: #006699;
+$gray_bg: #666666;
+$green_bg: #00cc66;
+$red_bg: #cc3333;
+$orange_bg: #ff6600;
 
 .post, .page {
     margin-bottom: 0;
@@ -35,7 +35,7 @@ $yellow_bg: yellow;
             background-color: $red_bg;
         }
         &:nth-child(4) {
-            background-color: $yellow_bg;
+            background-color: $orange_bg;
         }
     }
 }
@@ -59,11 +59,7 @@ $yellow_bg: yellow;
         padding: 30px 0px;
     }
 
-    p h3 h4{
-        padding: 2em;
-
-
-    }
+    
 }
 
 .about-tim-section {
