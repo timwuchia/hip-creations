@@ -23,7 +23,7 @@ $orange_bg: #ff6600;
         justify-content: center;
         align-items: center;
         a {
-            color: #b4bbc4;
+            color: white;
         }
         &:first-child {
             background-color: $green_bg;
@@ -43,12 +43,12 @@ $orange_bg: #ff6600;
 //about section
 .about-us {
     background-color: $gray_bg;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
     color: #fff;
     .about-logo {
         width: 60%;
@@ -68,7 +68,7 @@ $orange_bg: #ff6600;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 7rem;
     color: #fff;
     .about-tim-img {
         width: 60%;
@@ -81,7 +81,7 @@ $orange_bg: #ff6600;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
     color: #fff;
     // .about-nessie-img {
     //     width: 60%;

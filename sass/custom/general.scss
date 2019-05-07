@@ -7,18 +7,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
     padding: .5em;
+    color: white;
 }
 
 h1 {
     font-size: 2rem;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 1.6rem;
+    font-weight: 900;
+
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 h4, h5, h6 {
@@ -28,8 +32,10 @@ h4, h5, h6 {
 p {
     font-size: 1rem;
     padding: .5em;
+    color: white;
 }
 
 ul, ol {
     list-style: none;
 }
+

@@ -97,6 +97,25 @@
             "endpoint": 0
         },
         {
+            "key": "field_5cd142a2b29e6",
+            "label": "About Tim Brief",
+            "name": "about_tim_brief",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5cac1f3b8524f",
             "label": "About Tim Image",
             "name": "about_tim_image",
@@ -159,6 +178,30 @@
             "delay": 0
         },
         {
+            "key": "field_5ccfeaf33aa2a",
+            "label": "About Tim Bg",
+            "name": "about_tim_bg",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_5cac1f5d85251",
             "label": "About Nessie",
             "name": "",
@@ -173,6 +216,25 @@
             },
             "placement": "top",
             "endpoint": 0
+        },
+        {
+            "key": "field_5cd1425db29e5",
+            "label": "About Nessie Brief",
+            "name": "about_nessie_brief",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5cac1f6885252",
@@ -235,6 +297,70 @@
             "toolbar": "full",
             "media_upload": 1,
             "delay": 0
+        },
+        {
+            "key": "field_5ccfe51fdf28d",
+            "label": "About Nessie Bg",
+            "name": "about_nessie_bg",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ccf2e6563145",
+            "label": "Background",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ccf2e3bacedc",
+            "label": "About Bg",
+            "name": "about_bg",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -254,5 +380,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1555991657
+    "modified": 1557217989
 }

@@ -39,8 +39,8 @@
         },
         {
             "key": "field_5cac20c39e4bf",
-            "label": "Service Sub Title",
-            "name": "service_sub_title",
+            "label": "Service Brief",
+            "name": "service_brief",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -114,6 +114,54 @@
                     "delay": 0
                 }
             ]
+        },
+        {
+            "key": "field_5ccfeff05cd74",
+            "label": "Service Logo",
+            "name": "service_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ccff23cacc25",
+            "label": "Service Bg",
+            "name": "service_bg",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -133,5 +181,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1555034674
+    "modified": 1557218449
 }

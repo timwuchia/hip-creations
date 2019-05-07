@@ -37,15 +37,88 @@
 		<div class="top-banner">
 			<img src="<?php echo $logo_image['url'];?>" alt="<?php echo $logo_image['alt'];?>">
 		</div>
+
+
+
+		<div class = "desktop-header">
+
+
+				<div class ="landing-page">
+
+					<div class ="desktop-banner">
+
+			<?php
+				$hipcreation_brief = get_field('hipcreation_brief');
+			?>
+					
+			<img src="<?php echo $logo_image['url'];?>" alt="<?php echo $logo_image['alt'];?>">
+
+			<div class ="hipcreation-brief">
+				<h3> <?php echo $hipcreation_brief; ?>
+			</div>
+	
+
+					</div>
+
+				<div class ="landing_bg">
+
+					<?php 
+
+						$header_bg = get_field('header_bg');
+				
+					?>
+
+					<img src="<?php echo $header_bg['url']; ?>" alt="<?php echo $header_bg['alt']; ?>">
+				
+
+			</div>
+			<!-- end of landig bg -->
+
+
+
+			
+	
+	
+
+				
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+		</div>
+		<!-- end of desktop -->
+
+
+
+
+
+
 		<?php endif; ?>
+
+
 		<nav id="site-navigation" class="main-navigation">
+					<div class ="navigation-container">
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
+
+					</div>
+			<!-- end of navigation container -->
 		</nav><!-- #site-navigation -->
+	
+
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
