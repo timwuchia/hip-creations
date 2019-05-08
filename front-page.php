@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary well" class="content-area well">
 		<main id="main" class="site-main">
 
 
@@ -42,15 +42,25 @@ get_header();
 				<?php endif ?>
 </div>
 
-			<div class ="about-us">
+			<div id ="about-us" class ="about-us panel">
 
+
+					<div class="about-bg">
 						<img src="<?php echo $about_bg['url']; ?>" alt="<?php echo $about_bg['alt']; ?>">
+					</div>
 						<?php if($about_description) : ?>
 
 						<div class="about-description">
 							<?php echo $about_description; ?>
 						</div>
 					<?php endif ?>
+
+			<div class="back-top">
+				<a href="#top">
+					<img src="<?php bloginfo('template_url'); ?>/images/top.png">
+				</a>	 
+			</div>
+
 			</div>
 					<!-- end of about us -->
 
@@ -58,7 +68,7 @@ get_header();
 			
 	
 
-			<section class="about-nessie">
+			<section class="about-nessie panel">
 
 			
 			<?php
@@ -109,7 +119,7 @@ get_header();
 
 
 
-			<section class="about-tim">
+			<section class="about-tim panel">
 
 			
 			<?php
@@ -158,7 +168,7 @@ get_header();
 			</section>
 
 
-<section class="service">
+<section id ="service" class="service panel">
 
 			<?php
 			$service_logo = get_field('service_logo');
@@ -213,7 +223,7 @@ get_header();
 
 
 
-<section class="work">
+<section id="work" class="work panel">
 
 		<?php
 					$work_logo = get_field('work_logo');
