@@ -479,26 +479,31 @@
     background-color: rgba(255, 255, 255, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 8em;
+    padding-top: 0;
+   
     
     .the-work{
       height: 50%;
       padding: 1em;
+
+
+      
+    .work-image {
+             height: 30vh;
+        width: auto;
+        overflow: hidden;
+        img{
+        height: 30vh;
+        width: 100%;
+        
+    }
+}
 
       .work-info{
         display: none;
       }
     }
 
-    .work-image {
-   
-        img{
-        height: 15vh;
-        width: 100%;
-        box-shadow: black 1px 1px 1px 1px;
-
-    }
-}
 
   }
 
