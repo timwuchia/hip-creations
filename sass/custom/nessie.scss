@@ -20,6 +20,10 @@
     display: none;
   }
 
+  .desktop-header{
+    display: none;
+  }
+
   .landing_bg{
     display: none;
   }
@@ -42,6 +46,18 @@
 
   h3, h4, h5, h6{
     font-size: 1.2em;
+  }
+
+  .top-banner{
+    height: 50vh;
+    background-color: #666666;
+
+    img{
+      width: 50%;
+      display: flex;
+      margin: auto;
+      padding-top: 30%;
+    }
   }
 
 }
@@ -73,9 +89,12 @@
   .desktop{
     display: block;
     position: relative;
-
     }
   
+    .desktop-header{
+      display: block;
+    }
+
   .mobile{
     display: none;
   }
@@ -187,7 +206,7 @@
 
   .about-us:before{
       content:""; /*kosong, for it to exist*/
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 100vh; /*dimension of the shape*/
       position: absolute;
       top: 0;
@@ -227,13 +246,17 @@
 
       .about-description{
         background-color: rgba(255, 255, 255, 0)!important;
-          width: 55%;
-          position: absolute;
-          top: 0 auto;
-          z-index: 10;
+          width: auto;
+          // position: absolute;
+          // top: 0 auto;
+          // z-index: 10;
           border: 1px solid white;
-          margin-left: 17%;
-          top: 7%;
+          // margin-left: 35%;
+          // top: 7%;
+              position: absolute;
+            top: 10%;
+            margin-left: 19%;
+            text-align: center;
          
       }
      
@@ -265,7 +288,7 @@
 
       .about-nessie:before{
       content:""; /*kosong, for it to exist*/
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 100vh; /*dimension of the shape*/
       position: absolute;
       top: 0;
@@ -278,6 +301,9 @@
       position: relative;
       z-index: 1;
 
+        img{
+          width: 20%;
+        }
         
           h2{
             text-align: center;
@@ -296,7 +322,7 @@
         }
         .about-nessie-info{
             position: absolute;
-            top: 12%;
+            top: 10%;
             margin-left: 40%;
             text-align: center;
 
@@ -312,7 +338,7 @@
 
       .about-tim:before{
       content:""; /*kosong, for it to exist*/
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 100vh; /*dimension of the shape*/
       position: absolute;
       top: 0;
@@ -335,7 +361,7 @@
 
 
         .about-tim-img img{
-          width: 35%;
+          width: 20%;
           height: auto;
           margin: auto;
         }
@@ -348,7 +374,7 @@
         }
         .about-tim-info{
             position: absolute;
-            top: 12%;
+            top: 10%;
             margin-left: 40%;
             text-align: center;
 
@@ -367,7 +393,7 @@
 
       .service:before{
       content:""; /*kosong, for it to exist*/
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 100vh; /*dimension of the shape*/
       position: absolute;
       top: 0;
@@ -453,7 +479,7 @@
 
   .work:before{
       content:""; /*kosong, for it to exist*/
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 100vh; /*dimension of the shape*/
       position: absolute;
       top: 0;

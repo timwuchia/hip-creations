@@ -55,8 +55,8 @@ $orange_bg: #ff6600;
     }
     .about-description {
         background-color: $blue_bg;
-        width: 75%;
-        padding: 30px 0px;
+        width: 90%;
+        // padding: 30px 0px;
     }
 
     
@@ -136,3 +136,19 @@ $orange_bg: #ff6600;
     }
 
 }
+
+.contact-section {
+    text-align: center;
+    background-color: $gray_bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contact-title {
+        background-color: $blue_bg;
+        width: 75%;
+        padding: 30px 15px;
+
+    }
+
+}
+

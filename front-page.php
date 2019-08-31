@@ -42,7 +42,7 @@ get_header();
 				<?php endif ?>
 </div>
 
-			<div id ="about-us" class ="about-us panel">
+			<div id ="about-us" class ="about-us panel #about-us">
 
 
 					<div class="about-bg">
@@ -277,6 +277,31 @@ get_header();
 
 </section>
 
+<section class="contact-section" id="contact">
+
+				<div class ="desktop-banner">
+					<div class="contact-brief">
+							<h3><?php echo $contact_description ?></h3>
+						</div>
+								
+				<img src="<?php echo $contact_logo['url']; ?>" alt="<?php echo $contact_logo
+				['alt']; ?>">
+
+			<div class="contact-content">
+					<?php if(have_rows("contact")) : ?>
+					<?php while(have_rows("contact")) : the_row(); ?>
+				<?php 
+					$contact_title = get_sub_field("contact_description");
+					$contact_description = get_sub_field("contact_title");
+					$contact_logo = get_sub_field("contact_logo");
+				?>
+					<div class="contact-description"><?php echo $contact_description; ?></div>
+					<div class="contact-title"><?php echo $contact_title; ?></div>
+						<?php endwhile; ?>
+				<?php endif;?>
+			</div>
+
+	</section>
 
 
 
@@ -291,14 +316,7 @@ get_header();
 
 
 <section class="mobile">
-
-
-
-
 			<section class="about-us mobile" id="about-us">
-
-			
-
 				<?php 
 					$about_logo = get_field('about_logo');
 					$about_bg = get_field('about_bg');
@@ -307,9 +325,6 @@ get_header();
 					$about_description = get_field('about_description');
 				?>
 				<?php if($about_logo) : ?>
-
-
-
 					<div class="about-logo">
 						<img src="<?php echo $about_logo['url']; ?>" alt="<?php echo $about_logo['alt']; ?>">
 					</div>
@@ -364,9 +379,6 @@ get_header();
 				<?php endif; ?>
 			</section>
 
-</section>
-<!-- end of mobile -->
-
 
 <div class = "service-mobile">
 
@@ -416,8 +428,8 @@ get_header();
 					$work_image = get_sub_field("work_image");
 					$work_content = get_sub_field("work_content");
 				?>
-				<div class="work">
 
+				<div class="work">
 					<div class="work-image"><img src="<?php echo $work_image['url']; ?>" alt=""></div>
 					<div class="work-content"><?php echo $work_content; ?></div>
 
@@ -426,18 +438,42 @@ get_header();
 				<?php endwhile; ?>
 				</div>
 				<?php endif;?>
-
+			</section>
 		
-			<section class="contact-section #contact">
+<!-- end of service mobile -->
+			
+		<section class="contact-section #contact">
+
+			<div class="contact-content">
+					<?php if(have_rows("contact")) : ?>
+					<?php while(have_rows("contact")) : the_row(); ?>
+
+
+				<?php 
+					$contact_title = get_sub_field("contact_description");
+					$contact_description = get_sub_field("contact_title");
+					$contact_logo = get_sub_field("contact_logo");
+				?>
+
+				
+					<div class="contact-title"><?php echo $contact_title; ?></div>
+					<div class="contact-logo"><img src="<?php echo $contact_logo['url']; ?>" alt="">
+					</div>
+					<div class="contact-description"><?php echo $contact_description; ?></div>
+			
+
+						<?php endwhile; ?>
+				<?php endif;?>
+			</div>
+
+
+
 			</section>
 
-
-			</section>
-</div>
-
+</section>
+<!-- end of mobile -->
 
 
-<!-- end of servide mobile -->
 
 		</main>
 	</div>
